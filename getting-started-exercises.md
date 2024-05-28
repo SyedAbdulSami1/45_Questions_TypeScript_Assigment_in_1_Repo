@@ -45,13 +45,13 @@ describing what the program does.
 12. Greetings: Start with the array you used in Exercise 11, but instead of just printing each person’s name, print a message to them. The text of each message
 should be the same, but each message should be personalized with the person’s name.
 
-13. Your Own Array: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list
+13-Your-Own-Array: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list
 to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
 
-14. Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to
+14-Guest-List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to
 invite to dinner. Then use your list to print a message to each person, inviting them to dinner.
 
-15. Changing Guest List: You just heard that one of your guests can’t make the
+15-Changing-Guest-List: You just heard that one of your guests can’t make the
 dinner, so you need to send out a new set of invitations. You’ll have to think of
 someone else to invite.
 
@@ -64,7 +64,7 @@ the name of the new person you are inviting.
 • Print a second set of invitation messages, one for each person who is still
 in your list.
 
-16. More Guests: You just found a bigger dinner table, so now more space is
+16-More-Guests: You just found a bigger dinner table, so now more space is
 available. Think of three more guests to invite to dinner.
 
 • Start with your program from Exercise 15. Add a print statement to the end of your program informing people that you found a
@@ -76,7 +76,7 @@ bigger dinner table.
 • Use append() to add one new guest to the end of your list.
 • Print a new set of invitation messages, one for each person in your list.
 
-17. Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
+17-Shrinking-Guest-List: You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
 
 • Start with your program from Exercise 16. Add a new line that prints a message saying that you can invite only two people for dinner.
 
