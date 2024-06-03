@@ -88,7 +88,7 @@ a message to that person letting them know you’re sorry you can’t invite the
 • Remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end
 of your program.
 
-18. Seeing the World: Think of at least five places in the world you’d like to visit.
+18-Seeing-the-World: Think of at least five places in the world you’d like to visit.
 
 • Store the locations in a array. Make sure the array is not in alphabetical order.
 
