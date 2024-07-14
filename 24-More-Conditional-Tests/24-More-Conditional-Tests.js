@@ -15,8 +15,8 @@ console.log("Tests using the lower case function");
 console.log(`"Pakistan".toLowerCase() == "pakistan" = ${"Pakistan".toLowerCase() == "pakistan"}`); //true
 console.log(" ----------------------- x ----------------------- ");
 console.log("Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to");
-console.log(`5>6 = ${5 > 6}`); //True
-console.log(`5<7 = ${5 < 7}`); //False
+console.log(`5>6 = ${5 > 6}`); //false
+console.log(`5<7 = ${5 < 7}`); //true
 console.log(" ----------------------- x ----------------------- ");
 console.log("Tests using 'and' and 'or' operators");
 console.log(`true && false = ${true && false}`); //false
