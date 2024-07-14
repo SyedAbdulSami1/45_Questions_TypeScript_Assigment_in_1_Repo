@@ -1,3 +1,4 @@
+"use strict";
 /*18-Seeing-the-World: Think of at least five places in the world you’d like to visit.
 • Store the locations in a array. Make sure the array is not in alphabetical order.
 • Print your array in its original order.
@@ -9,22 +10,14 @@
 • Reverse the order of your list again. Print the list to show it’s back to its original order.
 • okSort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
 • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.*/
-var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
-    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
-        if (ar || !(i in from)) {
-            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
-            ar[i] = from[i];
-        }
-    }
-    return to.concat(ar || Array.prototype.slice.call(from));
-};
-var unfavorablePlace = ["Uganda", "Bermuda Triangle", "North Korea", "Algiers", "Cameroon"];
-console.log("In original order: ".concat(unfavorablePlace));
-console.log("Alphabetical order: ".concat(__spreadArray([], unfavorablePlace, true).sort()));
-console.log("In original order: ".concat(unfavorablePlace));
-console.log("Alphabetical & Reverse order: ".concat(__spreadArray([], unfavorablePlace, true).sort().reverse()));
-console.log("In original order: ".concat(unfavorablePlace));
-console.log("Reverse order: ".concat(__spreadArray([], unfavorablePlace, true).reverse()));
-console.log("In original order: ".concat(unfavorablePlace));
-console.log("Alphabetical order: ".concat(__spreadArray([], unfavorablePlace, true).sort()));
-console.log("Reverse order: ".concat(__spreadArray([], unfavorablePlace, true).reverse()));
+Object.defineProperty(exports, "__esModule", { value: true });
+let unfavorablePlace = ["Uganda", "Bermuda Triangle", "North Korea", "Algiers", "Cameroon"];
+console.log(`In original order: ${unfavorablePlace}`);
+console.log(`Alphabetical order: ${[...unfavorablePlace].sort()}`);
+console.log(`In original order: ${unfavorablePlace}`);
+console.log(`Alphabetical & Reverse order: ${[...unfavorablePlace].sort().reverse()}`);
+console.log(`In original order: ${unfavorablePlace}`);
+console.log(`Reverse order: ${[...unfavorablePlace].reverse()}`);
+console.log(`In original order: ${unfavorablePlace}`);
+console.log(`Alphabetical order: ${[...unfavorablePlace].sort()}`);
+console.log(`Reverse order: ${[...unfavorablePlace].reverse()}`);
