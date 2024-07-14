@@ -4,3 +4,5 @@ let cities : string[] = ["Pakistan", "UK", "USA", "Canada"];
 console.log(cities[4]);
 cities[4]= "Australia";
 console.log(cities[4]); // Now I corrected the error before closing the program.
+
+// Now let's run the corrected code
